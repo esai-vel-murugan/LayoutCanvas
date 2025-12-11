@@ -1,20 +1,19 @@
-🔧 Building and Installation
+# LayoutCanvas
+
+## 🔧 Building and Installation
 This project is built using CMake and requires the Qt Framework for the GUI.
 
-Prerequisites
-C++ Compiler: GCC, Clang, or MSVC (supporting C++17 or newer).
+### Prerequisites
+* **C++ Compiler:** GCC, Clang, or MSVC (supporting C++17 or newer).
+* **CMake:** Version 3.10 or higher.
+* **Qt Framework:** Version 6.x (with support for Qt Widgets and Qt OpenGL).
+* **Python 3:** Required for P-Cell scripting (must be accessible for embedding).
 
-CMake: Version 3.10 or higher.
+### Building from Source
 
-Qt Framework: Version 6.x (with support for Qt Widgets and Qt OpenGL).
-
-Python 3: Required for P-Cell scripting (must be accessible for embedding).
-
-Building from Source
-Bash
-
+```bash
 # Clone the repository
-git clone https://github.com/YourUsername/LayoutCanvas.git
+git clone [https://github.com/esai-vel-murugan/LayoutCanvas.git](https://github.com/esai-vel-murugan/LayoutCanvas.git)
 cd LayoutCanvas
 
 # Create a build directory
