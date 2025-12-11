@@ -1,0 +1,40 @@
+# 1. Build and Compilation Artifacts
+####################################
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# CMake and Build Folders
+/build/
+/Debug/
+/Release/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# 2. IDE and Editor Files
+#########################
+# Qt Creator
+*.pro.user
+*.qbs.user
+# Visual Studio / MSVC
+*.suo
+*.user
+# VS Code
+.vscode/
+
+# 3. Temporary and System Files
+###############################
+*~
+*.log
+.DS_Store
+
+# 4. Data Files (Optional but useful for CAD)
+#############################################
+# Ignore temporary autosave files or testing output
+*.bak
+*.gdsii.tmp
